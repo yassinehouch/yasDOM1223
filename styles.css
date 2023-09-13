@@ -1,0 +1,29 @@
+/* Styles for the cart */
+.cart {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Style for cart items */
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Style for heart icon */
+.like-button {
+    cursor: pointer;
+    color: #ccc;
+}
+
+.like-button.liked {
+    color: red;
+}
